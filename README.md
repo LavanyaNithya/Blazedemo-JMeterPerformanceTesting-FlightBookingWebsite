@@ -1,8 +1,10 @@
 **Overview**
 
-This project focuses on performance testing of the Blazedemo flight booking website using Apache JMeter. The objective is to simulate real-world traffic,evaluate the website's 
+This project focuses on performance testing of the Blazedemo flight booking website using Apache JMeter. 
 
-performance,and assess its ability to handle varying loads. Key actions like searching for flights, booking a flight, purchasing a flight, and entering details 
+The objective is to simulate real-world traffic,evaluate the website's performance,and assess its ability to handle varying loads.
+
+Key actions like searching for flights, booking a flight, purchasing a flight, and entering details 
 
 are tested to ensure stability and responsiveness under stress.
 
@@ -44,45 +46,45 @@ Blazedemo_Performance_Testing/
 
 │   │   │   ├── HomePage/               # HomePage Request
 
-              ├── ResponseCodeAssertion/ # Response Code Assertion
+             ├── ResponseCodeAssertion/ # Response Code Assertion
 
-              ├── SizeAssertion/         # Size Assertion
+             ├── SizeAssertion/         # Size Assertion
 
-              └── DurationAssertion/     # Duration Assertion
+             └── DurationAssertion/     # Duration Assertion
 
 │   │   │   ├── SearchFlights/          # Search Flights Request
 
-              ├── SearchFlight.csv        # CSV file for parametrization (e.g., fromPort, toPort)
+             ├── SearchFlight.csv        # CSV file for parametrization (e.g., fromPort, toPort)
             
-              ├── ResponseCodeAssertion/  # Response Code Assertion
+             ├── ResponseCodeAssertion/  # Response Code Assertion
 
-              ├── SizeAssertion/          # Size Assertion
+             ├── SizeAssertion/          # Size Assertion
 
-              └── DurationAssertion/      # Duration Assertion
+             └── DurationAssertion/      # Duration Assertion
 
 │   │   │   ├── BookFlight/             # Book Flight Request
 
-              ├── ResponseCodeAssertion/ # Response Code Assertion
+             ├── ResponseCodeAssertion/ # Response Code Assertion
 
-              ├── SizeAssertion/         # Size Assertion
+             ├── SizeAssertion/         # Size Assertion
 
-              └── DurationAssertion/     # Duration Assertion
+             └── DurationAssertion/     # Duration Assertion
 
 │   │   │   ├── PurchaseFlight/         # Purchase Flight Request
 
-              ├── ResponseCodeAssertion/ # Response Code Assertion
+             ├── ResponseCodeAssertion/ # Response Code Assertion
 
-              ├── SizeAssertion/         # Size Assertion
+             ├── SizeAssertion/         # Size Assertion
 
-              └── DurationAssertion/     # Duration Assertion
+             └── DurationAssertion/     # Duration Assertion
 
 │   │   │   └── EnterDetails/           # Enter Details Request
 
-              ├── ResponseCodeAssertion/ # Response Code Assertion
+             ├── ResponseCodeAssertion/ # Response Code Assertion
 
-              ├── SizeAssertion/         # Size Assertion
+             ├── SizeAssertion/         # Size Assertion
 
-              └── DurationAssertion/     # Duration Assertion
+             └── DurationAssertion/     # Duration Assertion
 
 │   ├── AggregateReport/            # Aggregate Report Listener
 
@@ -108,23 +110,23 @@ Version Control: Git,Github
 
 **How to Use**
 
-Clone this repository.
+1.Clone this repository.
 
-Open Blazedemo_Project.jmx in Apache JMeter.
+2.Open Blazedemo_Project.jmx in Apache JMeter.
 
-Configure the SerachFlight.csv for flight search parameters (departure and destination ports).
+3.Configure the SearchFlight.csv for flight search parameters (departure and destination ports).
 
-Adjust thread count and loop count based on the desired load.
+4.Adjust thread count and loop count based on the desired load.
 
-Run the tests in JMeter and analyze the results using the Listeners
+5.Run the tests in JMeter and analyze the results using the Listeners
 
-Generate an HTML report for a visual representation of test results.
+6.Generate an HTML report for a visual representation of test results.
 
 **Execution in Command Prompt**
 
 To execute the test plan in command line:
 
-jmeter -n -t /path/to/Blazedemo_Project.jmx -l /path/to/Result.csv -e -o /path/to/HTML Report
+     jmeter -n -t /path/to/Blazedemo_Project.jmx -l /path/to/Result.csv -e -o /path/to/HTML Report
 
 This will run the test in non-GUI mode, generate results in Result.csv , and create HTML reports in the folder.
 
