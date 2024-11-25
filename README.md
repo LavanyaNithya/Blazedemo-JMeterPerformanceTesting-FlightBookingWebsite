@@ -1,8 +1,8 @@
 **Overview**
 
-This project focuses on performance testing of the Blazedemo flight booking website using Apache JMeter. The objective is to simulate real-world traffic,evaluate the website's performance,
+This project focuses on performance testing of the Blazedemo flight booking website using Apache JMeter. The objective is to simulate real-world traffic,evaluate the website's 
 
-and assess its ability to handle varying loads. Key actions like searching for flights, booking a flight, purchasing a flight, and entering details 
+performance,and assess its ability to handle varying loads. Key actions like searching for flights, booking a flight, purchasing a flight, and entering details 
 
 are tested to ensure stability and responsiveness under stress.
 
@@ -44,45 +44,45 @@ Blazedemo_Performance_Testing/
 
 │   │   │   ├── HomePage/               # HomePage Request
 
-               ├── ResponseCodeAssertion/ # Response Code Assertion
+              ├── ResponseCodeAssertion/ # Response Code Assertion
 
-               ├── SizeAssertion/         # Size Assertion
+              ├── SizeAssertion/         # Size Assertion
 
-               └── DurationAssertion/     # Duration Assertion
+              └── DurationAssertion/     # Duration Assertion
 
 │   │   │   ├── SearchFlights/          # Search Flights Request
 
-               ├── SearchFlight.csv        # CSV file for parametrization (e.g., fromPort, toPort)
+              ├── SearchFlight.csv        # CSV file for parametrization (e.g., fromPort, toPort)
             
-               ├── ResponseCodeAssertion/  # Response Code Assertion
+              ├── ResponseCodeAssertion/  # Response Code Assertion
 
-               ├── SizeAssertion/          # Size Assertion
+              ├── SizeAssertion/          # Size Assertion
 
-               └── DurationAssertion/      # Duration Assertion
+              └── DurationAssertion/      # Duration Assertion
 
 │   │   │   ├── BookFlight/             # Book Flight Request
 
-               ├── ResponseCodeAssertion/ # Response Code Assertion
+              ├── ResponseCodeAssertion/ # Response Code Assertion
 
-               ├── SizeAssertion/         # Size Assertion
+              ├── SizeAssertion/         # Size Assertion
 
-               └── DurationAssertion/     # Duration Assertion
+              └── DurationAssertion/     # Duration Assertion
 
 │   │   │   ├── PurchaseFlight/         # Purchase Flight Request
 
-               ├── ResponseCodeAssertion/ # Response Code Assertion
+              ├── ResponseCodeAssertion/ # Response Code Assertion
 
-               ├── SizeAssertion/         # Size Assertion
+              ├── SizeAssertion/         # Size Assertion
 
-               └── DurationAssertion/     # Duration Assertion
+              └── DurationAssertion/     # Duration Assertion
 
 │   │   │   └── EnterDetails/           # Enter Details Request
 
-               ├── ResponseCodeAssertion/ # Response Code Assertion
+              ├── ResponseCodeAssertion/ # Response Code Assertion
 
-               ├── SizeAssertion/         # Size Assertion
+              ├── SizeAssertion/         # Size Assertion
 
-               └── DurationAssertion/     # Duration Assertion
+              └── DurationAssertion/     # Duration Assertion
 
 │   ├── AggregateReport/            # Aggregate Report Listener
 
