@@ -110,6 +110,15 @@ Reporting: JMeter listeners (Summary, Aggregate, and View Results Tree) and HTML
 
 Version Control: Git,Github
 
+**Prerequisites**
+
+To run this performance testing project, ensure the following are set up:
+
+Apache JMeter: Install the latest version of JMeter on your system.
+
+Java Development Kit (JDK): Ensure JDK 8 or above is installed and configured in your system's environment variables.
+
+
 **How to Use**
 
 1.Clone this repository.
