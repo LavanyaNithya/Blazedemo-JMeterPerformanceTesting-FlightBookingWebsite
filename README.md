@@ -92,6 +92,8 @@ Blazedemo_Performance_Testing/
 
 │   └── ViewResultsTree/           # View Results Tree Listener
 
+│   └── Debug Sampler/             # To Debug Scripts
+
 ├── HTTP(s) Test Script Recorder   #Recorder to capture the transactions     
 
 
