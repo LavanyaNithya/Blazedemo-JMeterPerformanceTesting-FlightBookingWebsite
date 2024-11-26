@@ -32,6 +32,20 @@ are tested to ensure stability and responsiveness under stress.
 
 6.Load Simulation: Increased thread count and loop count to simulate concurrent users and repeated actions.
 
+
+**Technologies Used**
+
+Tool: Apache JMeter
+
+Test Management: JMeter Test Plan with recording and scripting
+
+Assertions: Response code, size, and duration assertions
+
+Reporting: JMeter listeners (Summary, Aggregate, and View Results Tree) and HTML Report
+
+Version Control: Git,Github
+
+
 **Project Structure**
 
 Blazedemo_Performance_Testing/
@@ -97,18 +111,24 @@ Blazedemo_Performance_Testing/
 ├── HTTP(s) Test Script Recorder   #Recorder to capture the transactions     
 
 
+**Report Screenshots**
 
-**Technologies Used**
+**Report1**
 
-Tool: Apache JMeter
+![Blazedemo ss1](Blazedemo%20screenshots/Blazedemo%20ss1.PNG)
 
-Test Management: JMeter Test Plan with recording and scripting
+**Report1**
 
-Assertions: Response code, size, and duration assertions
+![Blazedemo ss2](Blazedemo%20screenshots/Blazedemo%20ss2.PNG)
 
-Reporting: JMeter listeners (Summary, Aggregate, and View Results Tree) and HTML Report
+**Report1**
 
-Version Control: Git,Github
+![Blazedemo ss3](Blazedemo%20screenshots/Blazedemo%20ss3.PNG)
+
+**Report1**
+
+![Blazedemo ss4](Blazedemo%20screenshots/Blazedemo%20ss4.PNG)
+
 
 **Prerequisites**
 
