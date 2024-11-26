@@ -117,15 +117,15 @@ Blazedemo_Performance_Testing/
 
 ![Blazedemo ss1](Blazedemo%20screenshots/Blazedemo%20ss1.PNG)
 
-**Report1**
+**Report2**
 
 ![Blazedemo ss2](Blazedemo%20screenshots/Blazedemo%20ss2.PNG)
 
-**Report1**
+**Report3**
 
 ![Blazedemo ss3](Blazedemo%20screenshots/Blazedemo%20ss3.PNG)
 
-**Report1**
+**Report4**
 
 ![Blazedemo ss4](Blazedemo%20screenshots/Blazedemo%20ss4.PNG)
 
